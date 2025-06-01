@@ -50,20 +50,22 @@ Ctrl + W
 ```
 
 Close all
+
 ```sh
 Ctrl + K W
 ```
 
 Copy path
+
 ```sh
 Ctrl + K P
 ```
 
 Reveal file in explorer
+
 ```sh
 Ctrl + K R
 ```
-
 
 # Cursor
 
@@ -232,6 +234,12 @@ Fold/unfold region
 Ctrl + Shift + [/]
 ```
 
+View module tree
+```sh
+Ctrl + Shift + .
+```
+
+
 # Terminal
 
 Open/Close terminal
@@ -256,6 +264,16 @@ Scroll Up/Down
 
 ```sh
 Shift + Fn + Up/Down Arrow
+```
+
+Move cursor
+```sh
+Ctrl + HorArrow
+```
+
+Fast delete
+```sh
+Ctrl + Delete
 ```
 
 Delete terminal
