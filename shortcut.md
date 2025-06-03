@@ -40,7 +40,7 @@ Alt + 1/2/3...
 Reorder tabs
 
 ```sh
-Ctrl + Shift + Fn + VerArrow
+Ctrl + Shift + PageUp/PageDown
 ```
 
 Close tabs
@@ -78,7 +78,7 @@ Ctrl + HorArrow
 Move cursor to begin/end of line
 
 ```sh
-Fn + HorArrow
+Home/End
 ```
 
 Go to line
@@ -234,11 +234,13 @@ Fold/unfold region
 Ctrl + Shift + [/]
 ```
 
+
+
 View module tree
+
 ```sh
 Ctrl + Shift + .
 ```
-
 
 # Terminal
 
@@ -257,21 +259,23 @@ Ctrl + Shift + `
 Switch between terminal
 
 ```sh
-Ctrl + Fn + VerArrow
+Ctrl + PageUp/PageDown
 ```
 
 Scroll Up/Down
 
 ```sh
-Shift + Fn + Up/Down Arrow
+Shift + PageUp/PageDown
 ```
 
 Move cursor
+
 ```sh
 Ctrl + HorArrow
 ```
 
 Fast delete
+
 ```sh
 Ctrl + Delete
 ```
