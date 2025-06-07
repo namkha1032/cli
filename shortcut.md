@@ -37,6 +37,12 @@ Switch between tabs of a Windows
 Alt + 1/2/3...
 ```
 
+Switch to previous/next tab
+
+```sh
+Ctrl + PageUp/PageDown
+```
+
 Reorder tabs
 
 ```sh
