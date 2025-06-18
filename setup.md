@@ -59,3 +59,8 @@ unzip flowers.zip
 ```sh
 tensorboard --logdir logs --host 0.0.0.0 --port 6007
 ```
+
+# Execute
+```sh
+nohup python main.py > output.log 2>&1 &
+```
