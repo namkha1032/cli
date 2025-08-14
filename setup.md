@@ -38,6 +38,9 @@ bash Miniconda3-latest-Linux-x86_64.sh
 ```sh
 source ~/miniconda3/bin/activate
 ```
+```
+rm Miniconda3-latest-Linux-x86_64.sh
+```
 # conda env
 ```sh
 conda create -n nk python=3.10
