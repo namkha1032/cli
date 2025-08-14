@@ -33,7 +33,7 @@ scp -r cloud-gpu:/workspace/working/ /home/namkha/Documents/mydev/transformer-ze
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
 ```sh
-bash Miniconda3-latest-Linux-x86_64.sh -b -p /root/miniconda3
+bash Miniconda3-latest-Linux-x86_64.sh
 ```
 ```sh
 source ~/miniconda3/bin/activate
