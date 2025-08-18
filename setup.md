@@ -14,10 +14,10 @@ cat ~/.ssh/id_ed25519.pub
 
 # git
 ```sh
-git config --global user.name "namkha1032"
+git config user.name "namkha1032"
 ```
 ```sh
-git config --global user.email "namkha1032@gmail.com"
+git config user.email "namkha1032@gmail.com"
 ```
 
 # transfer
