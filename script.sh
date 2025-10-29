@@ -13,5 +13,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=namkha.nguyen@adelaide.edu.au
 
-source ~/miniconda3/etc/profile.d/conda.sh
+source /hpcfs/users/a1956473/miniconda3/etc/profile.d/conda.sh
 conda activate nam_env
+
+python -m debugpy --listen 0.0.0.0:5678 --wait-for-client /hpcfs/users/a1956473/projects/cli/test.py
