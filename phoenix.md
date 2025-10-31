@@ -11,10 +11,10 @@ srun \
     --ntasks=1 \
     --mem=8G \
     --gpus-per-node=1 \
-    --mail-type=BEGIN \
+    --mail-type=ALL \
     --mail-user=namkha.nguyen@adelaide.edu.au \
-    --pty bash \
-    --time=01:00:00
+    --time=01:00:00 \
+    --pty bash
 ```
 
 Keep the argument `--pty bash` unchanged - it ensures that you start an interactive bash session.
